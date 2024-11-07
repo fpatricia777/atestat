@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATESTAT</title>
+
+<style>
+.pagina1 {
+	margin: 0;
+	padding: 0;
+	bgcolor: #f0b4bd;
+}
+
+.container{
+	width: 67%;
+	margin: 35px auto;
+	background-color: #f78e9e ;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poza{
+	text-align: center;
+}
+
+.poza img{
+	height: 170px;
+	width: 100% ;
+	margin-bottom: -5px;
+}
+
+nav{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f59eab;
+}
+
+nav a{
+	color:white;
+	text-decoration:none;
+	padding: 15px;
+}
+
+nav a:hover{
+	background-color: violet;
+} 
+
+.active{
+	background-color: violet;
+	color: black;
+	font-weight: bold;
+}
+
+.card {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: #aaaaaa44;
+    border: 1px solid #ddd;
+    border-radius: 16px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-content {
+    flex: 1;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card-button {
+    padding: 10px 20px;
+    margin-right: 15px;
+    background-color: violet;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: darkviolet;
+}
+
+</style>
+
+</head>
+<body class="pagina1" bgcolor="#f0b4bd">
+<div class="container">  
+<div class="poza">
+<img src="poza principalaprincipala.jfif" alt="banner">
+</div>
+
+<nav>
+	<a href="index.html">Acasă</a>
+	<a href="Foietaje.html">Foietaje</a>
+	<a href="fara_gluten.html">Fără Gluten</a>
+	<a href="vanilie_ciocolata.html">Vanilie&Ciocolată</a>
+	<a href="fructe_legume.html">Fructe&Legume</a>
+	<a href="fara_zahar.html">Fără Zahăr</a>
+	<a href="#"class="active">Reci&Calde</a>
+	<a href="raw_vegane.html">Raw-Vegane</a>
+	<a href="contact.html">Contact</a>
+</nav>
+
+<div class="card">
+	<img src="Mere Coapte cu Scorțișoară și Nuci principala.jpg" alt="nume" class="card-image">
+            
+	<div class="card-content">
+                <h3 class="card-title">Mere Coapte cu Scorțișoară și Nuci</h3>
+                <p class="card-description">Un desert reconfortant, simplu de preparat, cu mere suculente umplute cu un amestec crocant de nuci, scorțișoară și miere. Fiecare mușcătură oferă un contrast între dulceața merelor coapte și aroma caldă a scorțișoarei, perfecte pentru o gustare sănătoasă și plină de savoare.</p>
+	</div>
+            
+            <a href="./reci_calde/mere_coapte_cu_scortisoara_si_nuci.html" class="card-button">Vezi mai mult</a>
+</div>
+
+<div class="card">
+	<img src="Parfait cu Iaurt și Fructe principala.jpg" alt="nume" class="card-image">
+            
+	<div class="card-content">
+                <h3 class="card-title">Parfait cu Iaurt și Fructe</h3>
+                <p class="card-description"> Acest desert proaspăt și ușor îmbină straturi de iaurt cremos, granola crocantă și fructe de sezon. Texturile contrastante și aroma fructelor fac din parfait o alegere sănătoasă și răcoritoare, ideală pentru mic dejun sau desert.</p>
+	</div>
+            
+            <a href="./reci_calde/parfait_cu_iaurt_si_fructe.html" class="card-button">Vezi mai mult</a>
+</div>
+
+<div class="card">
+	<img src="Clafoutis cu Cireșe principala.jpg" alt="nume" class="card-image">
+            
+	<div class="card-content">
+                <h3 class="card-title">Clafoutis cu Cireșe</h3>
+                <p class="card-description">Un desert franțuzesc ușor și pufos, clafoutis-ul combină textura unei budinci cremoase cu prospețimea cireșelor coapte. Are o aromă subtilă de vanilie și este delicios servit cald, cu un strop de zahăr pudră sau o înghețată de vanilie.</p>
+	</div>
+            
+            <a href="./reci_calde/clafoutis_cu_cirese.html" class="card-button">Vezi mai mult</a>
+</div>
+
+<div class="card">
+	<img src="Sorbet de Pepene Verde și Mentă principala.jpg" alt="nume" class="card-image">
+            
+	<div class="card-content">
+                <h3 class="card-title">Sorbet de Pepene Verde și Mentă</h3>
+                <p class="card-description">Răcoritor și fructat, acest sorbet oferă savoarea dulce a pepenelui verde combinată cu o notă de prospețime de la menta. Fără lactate și fără zahăr adăugat, este desertul perfect pentru zilele calde de vară.</p>
+	</div>
+            
+            <a href="./reci_calde/sorbet_de_pepene_verde_si_menta.html" class="card-button">Vezi mai mult</a>
+</div>
+
+</div>
+
+
+
+</body>
+</html>

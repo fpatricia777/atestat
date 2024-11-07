@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATESTAT</title>
+
+<style>
+.pagina1 {
+	margin: 0;
+	padding: 0;
+	bgcolor: #f0b4bd;
+}
+
+.container{
+	width: 67%;
+	margin: 35px auto;
+	background-color: #f78e9e ;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poza{
+	text-align: center;
+}
+
+.poza img{
+	height: 170px;
+	width: 100% ;
+	margin-bottom: -5px;
+}
+
+nav{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f59eab;
+}
+
+nav a{
+	color:white;
+	text-decoration:none;
+	padding: 15px;
+}
+
+nav a:hover{
+	background-color: violet;
+} 
+
+.active{
+	background-color: violet;
+	color: black;
+	font-weight: bold;
+}
+
+.contact{
+        text-align: center;
+        font-size: large;
+        margin-top: 80px;
+    }
+
+    .contact h1{
+        margin-bottom: 0;
+        color: black;
+    }
+
+    .contact p{
+        margin-top: 0;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+        width: 100%;
+        height: 250px;
+        border-radius: 13px;
+    }
+
+    .pers_info{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 50px;
+        height: 250px;
+        border-radius: 13px;
+        font-size: 18px;
+    }
+
+    .pers_info strong{
+        color: rgb(59, 59, 59);
+    }
+
+    .contact-form label{
+        padding-top: 10px;
+    }
+
+    .contact-form input, textarea{
+        border-radius: 10px;
+        border: 1px solid rgb(124, 124, 124);
+    }
+
+    .contact-form button{
+        margin-top: 15px;
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 8px;
+    }
+
+    .contact-form button:hover{
+        background-color: rgb(150, 0, 0);
+        border-radius: 18px;
+    }
+
+    .social a{
+        color: blue;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+</style>
+
+</head>
+<body class="pagina1" bgcolor="#f0b4bd">
+<div class="container">  
+<div class="poza">
+<img src="poza principalaprincipala.jfif" alt="banner">
+</div>
+
+<nav>
+	<a href="index.html">Acasă</a>
+	<a href="Foietaje.html">Foietaje</a>
+	<a href="fara_gluten.html">Fără Gluten</a>
+	<a href="vanilie_ciocolata.html">Vanilie&Ciocolată</a>
+	<a href="fructe_legume.html">Fructe&Legume</a>
+	<a href="fara_zahar.html">Fără Zahăr</a>
+	<a href="reci_calde.html">Reci&Calde</a>
+	<a href="raw_vegane.html">Raw-Vegane</a>
+	<a href="#"class="active">Contact</a>
+</nav>
+
+<div class="contact">
+        <h1>Contacteaza-ne!</h1>
+        <p>În caz că ai întâmpinat o problemă, lasă-ne un mesaj!</p></div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="name"><strong>Nume: </strong></label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email"><strong>Email: </strong></label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message"><strong>Mesaj: </strong></label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Trimite</button>
+                </form>
+            </div>
+            <div class="pers_info">
+                <h3>Informații contact</h3>
+                <p><strong>Nume: </strong>Frona Patricia</p>
+                <p><strong>Clasa: </strong>a XII-a B</p>
+                <p><strong>Profesor coordonator: </strong>Stroe Mihai Marius</p>
+                <div class="social">
+                    <h2>Umărește-ne</h2>
+                    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Youtube</a>
+                </div>
+            </div>
+
+</div>
+
+
+
+</body>
+</html>
